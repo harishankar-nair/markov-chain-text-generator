@@ -66,7 +66,7 @@ You need Python 3 and matplotlib.
 ```bash
 pip install -r requirements.txt
 python dexter_markov.py      # the generator
-python dexter_analysis.py    # the test: prints the table and saves the two charts
+python dexter_analysis.py    # the test (prints the table and saves the two charts)
 ```
 
 ## Files
@@ -81,5 +81,4 @@ python dexter_analysis.py    # the test: prints the table and saves the two char
 
 - The book is tiny, so even at order 1 a lot of words only have one or two possible next words.
 - The output doesn't mean anything. It's new word order in his style, not new ideas.
-- Gutenberg has the 1848 edition, which might be slightly different from the 1802 original.
 - The exact numbers depend on the run length I picked, especially for order 2.
